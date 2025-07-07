@@ -1,0 +1,85 @@
+body{
+    position: relative;
+    width: 100%;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.mainNav{
+    position: fixed;
+    left: 0;
+    top: 40px;
+    margin-top: 30px;
+}
+.margin-left{
+    margin-left: 270px;
+}
+.contentpage{
+    margin-top: 100px;
+    z-index: 0.9;
+}
+.table-khachHang{
+    margin-top: 80px;
+    z-index: 0.9;
+}
+.form_old_infor{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 5px;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    display: none;
+}
+.form_old_infor .btn-success{
+   margin-left: 240px;
+
+}
+.alert-delete{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 5px;
+    position: absolute;
+    top: 200px;
+    left: 45%;
+   display: none;
+}
+.alert-delete p{
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.alert-delete .btn{
+    margin-left: 45px;
+}
+.div-add-newproduct{
+    width: 80%;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    display: none;
+}
+.bd-example{
+	 margin-right: 80px;
+    background-color: white;
+    margin-top: 115px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+.form-control{
+	margin: 0 0 0 40px;
+	width: 80%;
+}
+.form-label{
+margin-left: 40px;
+}
+
+    
